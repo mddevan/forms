@@ -1,0 +1,58 @@
+.basic_form {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px 25px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+.inputfield {
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    transition: .5s;
+    padding: 3px 5px;
+}
+
+.inputfield:hover {
+    border: 1px solid black;
+}
+
+.form_group {
+    margin-top: 7px;
+}
+
+textarea {
+    border: 2px solid lightgray;
+    border-radius: 3px;
+}
+
+select {
+    width: 60px;
+    padding: 2px;
+}
+
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: skyblue;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: skyblue;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: skyblue;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: skyblue;
+}
